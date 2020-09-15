@@ -17,6 +17,13 @@ public class MoreStrings {
         System.out.println(myString.charAt(myString.length()-1));
         System.out.println(myString.charAt(0));
 
+        //Challenge: Assume a variable named myString exists and refers to a String object that has a length >= 2.
+        // Create a Java statement(s) that would print the first character (in uppercase) followed by the last character (in lowercase) of the String.
+
+        String myString3 = new String("Two");
+
+
+
 
     }
 }
