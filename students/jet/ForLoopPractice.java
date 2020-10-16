@@ -20,5 +20,13 @@ public class ForLoopPractice {
             }
 
         }
+        String stringOne = new String("The quick brown fox jumped over the lazy dog");
+        for(int i = 0; i <= stringOne.length() -1; i++){
+            System.out.println(stringOne.charAt(i));
+        }
+        for(int count = stringOne.length()-1; count >= 0; count--)
+        {
+            System.out.println(stringOne.charAt(count));
+        }
     }
 }
