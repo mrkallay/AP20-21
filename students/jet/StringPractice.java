@@ -1,6 +1,6 @@
 public class StringPractice {
 
-    public static void main(String[] args)
+    public static void main(Integer[] args)
     {
 
         String mystring = new String("Jet's World");

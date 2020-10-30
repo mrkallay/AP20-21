@@ -37,5 +37,33 @@ public class ForLoopPractice {
             }
         }
         System.out.println("There are " + vowelCount + " vowels in this sentence.");
+        System.out.println(stringOne.toUpperCase());
+
+        int a = 7;
+        int b = a%4;
+        double c = (double)(a/b);
+        System.out.println(c);
+
+        int j = 4;
+        while(j <= 11)
+        {
+            if(j %2 == 0 && j != 4)
+            {
+                j =  j + 3;
+            }
+            else if ( j + 5 == 10)
+            {
+                j = j + 2;
+            }
+            else
+            {
+                j++;
+            }
+            System.out.println("j: "+ j );
+        }
+
+
     }
+
+
 }
