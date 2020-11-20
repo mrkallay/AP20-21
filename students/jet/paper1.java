@@ -4,20 +4,13 @@ public class paper1
 {
 
     public static void main(Integer[] args) {
-        int j = 3;
-        while (j <= 9 || j % 2 == 0) {
-            if (j < 5) {
-                j++;
-            }
+        int sum = 0;
+        int k = 1;
+        while (sum < 12 || k < 4) {
 
-            if (j % 2 == 0) {
-                j++;
-            } else {
-                j = j + 3;
-            }
+            sum += k;
 
-            System.out.println(j);
         }
-    }
-}
+        System.out.println(sum);
+    }}
 

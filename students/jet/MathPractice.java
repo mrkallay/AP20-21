@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.lang.Math;
 public class MathPractice {
 
     public static void main(String[] args)
@@ -25,14 +26,15 @@ public class MathPractice {
         Scanner scan1 = new Scanner(System.in);
         int num2 = scan.nextInt();
 
-        System.out.println("Enter a integer number");
-        Scanner scan3 = new Scanner(System.in);
+        System.out.println("Enter another integer number");
+        Scanner scan2 = new Scanner(System.in);
         int num3 = scan.nextInt();
 
 
         // 4) Without using conditional logic display the larger of the integers to the screen
 
-
+        System.out.println(Math.max(num2, num3));
+        System.out.println();
 
         // 5) Prompt the user to enter a decimal number (double) and use the scanner object to assign it to a variable
 
@@ -41,6 +43,14 @@ public class MathPractice {
         double num4 = scan.nextInt();
 
         // 6) Use the Math class to round the double up and down to the nearest double (see floor/ceil)
+
+
+
+        System.out.println("Ceiling of '" + num4 + "' = " + Math.ceil(num4));
+
+        System.out.println("Floor of '" + num4 + "' = " + Math.floor(num4));
+
+
 
 
     }
