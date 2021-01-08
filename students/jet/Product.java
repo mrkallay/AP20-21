@@ -29,7 +29,7 @@ public class Product {
         double totalPrice= discountedPrice * price;
 
         System.out.println ("Product Name: " + name);
-        System.out.println("Discount: " + discount);
+        System.out.println("Discount: " + discount +"%");
         System.out.println("Full Price: " + price);
         System.out.println("Discounted Price: " + totalPrice);
 
