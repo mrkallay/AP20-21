@@ -20,6 +20,8 @@ public class ArrayPractice {
         //printing the number of elements in the array
         System.out.println("Number of elements in myIntArray: "  + intArray.length);
 
+
+
         //TODO: 1) print the first element in the array - index = 0
         System.out.println(intArray[0]);
 
@@ -55,13 +57,21 @@ public class ArrayPractice {
 
         }
 
+
+
+
         //TODO: use an enhanced for loop to print each element
 
         for(int num: intArrayTwo) //for num in intArrayTwo
         {
             System.out.println(num);
         }
-        String[] strings = {"a", "b", "c"}; //String strings[] = {"a", "b", "c"};
-        System.out.println(strings[0] + strings[2]);
+
+        int[] numbers = {13, 22, 54, 72, 90};
+        int total = 0;
+        for( int num : numbers) {
+            total= total+num;
         }
+        System.out.println("Total of array integers is: " + total);
     }
+}
